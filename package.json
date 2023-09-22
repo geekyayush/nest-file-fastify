@@ -1,6 +1,6 @@
 {
-  "name": "nest-file-fastify",
-  "version": "3.0.7",
+  "name": "@geekyayush/nest-file-fastify",
+  "version": "3.0.8",
   "description": "@fastify/multipart decorators for Nest.js",
   "license": "MIT",
   "main": "build/src/index.js",
