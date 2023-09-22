@@ -12,6 +12,9 @@
     "type": "git",
     "url": "https://github.com/geekyayush/nest-file-fastify"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "nest",
     "nestjs",
