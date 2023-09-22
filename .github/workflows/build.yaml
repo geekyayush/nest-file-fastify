@@ -22,7 +22,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 18
 
       - uses: actions/cache@v2.1.6
         id: yarn-cache
