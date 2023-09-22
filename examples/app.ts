@@ -8,7 +8,7 @@ import multipart from "@fastify/multipart";
 
 import { AppModule } from "./app-module";
 
-export const runApp = async () => {
+export const runApp = async (): Promise<NestFastifyApplication> => {
   const adapter = new FastifyAdapter();
 
   const app = await NestFactory.create<NestFastifyApplication>(
